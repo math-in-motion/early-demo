@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <link rel="stylesheet" href="mathquill.css">
+  <script src="mathquill.js"></script>
+  <link rel="stylesheet" href="https://use.typekit.net/fcs4ith.css">
+  <link rel="stylesheet" href="styles.css">
+  <script defer src="main.js"></script>
+  <script defer src="anime.min.js"></script>
+  <title>MiM Demo | p5.js</title>
+</head>
+<body id="body">
+  <nav>
+    <ul id="nav-bar">
+      <li id="logo"><a href="#hero-area">p5.js | MATH IN MOTION</a></li>
+      <li id="home"><a href="#hero-area">Home</a></li>
+      <li id="demo"><a href="#sticky-content">Demo</a></li>
+      <li id="about"><a href="#about-heading">About</a></li>
+    </ul>
+  </nav>
+  <article id="hero-area">
+      <iframe src="https://player.vimeo.com/video/349761701" frameborder="0" allow="autoplay; fullscreen" allowfullscreen class="hero-video"></iframe>
+    <div id="legend-container">
+      <h2 id="intro-heading">Mathematics looks awesome on digital screens</h2>
+      <p id="site-legend">
+        Yet, most technologies out there focus on presenting notation instead of helping us <em>do math.</em> We dream of a future in which we can easily play around with mathematical symbols on all our devices, and this project is a very tiny step towards making that happen.
+      </p>
+    </div>
+  </article>
+  <div id="sticky-content">
+    <article id="content-area">
+      <div></div>
+      <h3 class="heading-style">Give it a try</h3>
+      <p class="reg-copy">
+        Let's try writing a simple quadratic.
+        Type the following sequence of keystrokes into the input area:<br>
+      </p>
+      <p class="reg-copy">
+        <b>a</b> <b>x</b> <b>shift</b> + <b>^</b> <b>2</b>
+      </p>
+      <p class="reg-copy">
+        Then press the right arrow key to get back to the regular line and finish
+        the rest of the expression.
+      </p>
+      <p class="reg-copy">
+        <b>&#8594</b> <b>+</b> <b>b</b> <b>x</b> <b>+</b> <b>c</b>
+        <b>ENTER</b>
+      </p>
+      <p class="reg-copy">
+        You can use the same key combo to get a new tiny text field for writing
+        all kinds of superscripts.
+      </p>
+      <p class="reg-copy">
+        Now let's try writing expressions under a root sign. Type the following
+        into the input area:
+      </p>
+      <p class="reg-copy">
+        <b>\</b> <b>s</b> <b>q</b> <b>r</b> <b>t</b>
+        <b>SPACEBAR</b>
+      </p>
+      <p class="reg-copy">
+        Notice we get another tiny text field within the root. Finish by typing:
+      </p>
+      <p class="reg-copy">
+        <b>x</b> <b>SHIFT</b> + <b>^</b> <b>2</b> <b>&#8594</b>
+        <b>+</b> <b>y</b> <b>SHIFT</b> + <b>^</b> <b>2</b>
+        <b>ENTER</b>
+      </p>
+      <p class="reg-copy">
+        Let's build a fractional expression. Type the following into the input field:
+      </p>
+      <p class="reg-copy">
+        <b>y</b> <b>=</b> <b>1</b> <b>/</b> <b>2</b> <b>&#8594</b>
+        <b>a</b> <b>b</b> <b>ENTER</b>
+      </p>
+      <p class="reg-copy">
+        You can use the arrow keys to navigate over the symbols in your expression.
+      </p>
+      <p class="reg-copy">
+        <b>&#8592</b> <b>&#8594</b> <b>&#8593</b> <b>&#8595</b>
+      </p>
+      <p class="reg-copy">
+        And you can edit the expressions that you've already built, just click
+        into them with your mouse.
+      </p>
+      <p class="reg-copy">
+        Let's add some normal text to our work. Type the following:
+      </p>
+      <p class="reg-copy">
+        <b>SHIFT</b> + <b>$</b> <b>I</b> <b>d</b> <b>e</b> <b>n</b> <b>t</b> 
+        <b>i</b> <b>t</b> <b>y</b> <b>:</b> <b>SHIFT</b> + <b>$</b>
+      </p>
+      <p class="reg-copy">
+        The dollar symbol opens and closes a short text area for non-mathy
+        words. Continue by typing the following:
+      </p>
+      <p class="reg-copy">
+        <b>a</b> <b>\</b> <b>t</b> <b>i</b> <b>m</b> <b>e</b> <b>s</b>
+        <b>SPACEBAR</b> <b>1</b> <b>=</b> <b>a</b> <b>ENTER</b>
+      </p>
+      <p class="reg-copy">
+        The backslash symbol opens another tiny text field that
+        accepts Latex, or Latex-like commands
+      </p>
+      <p class="reg-copy">
+        If you're beyond basic Algebra, you may want a dot as your multiplication
+        symbol. Type the following:
+      </p>
+      <p class="reg-copy">
+        <b>a</b> <b>SHIFT</b> + <b>*</b> <b>0</b> = <b>0</b> <b>ENTER</b>
+      </p>
+      <p class="reg-copy">
+        Let's work with trigonometry. Type the following:
+      </p>
+      <p class="reg-copy">
+        <b>x</b> <b>=</b> <b>c</b> <b>o</b> <b>s</b> <b>\</b> <b>t</b> <b>h</b> <b>e</b> <b>t</b>
+        <b>a</b> <b>SPACEBAR</b> <b>ENTER</b>
+      </p>
+      <p class="reg-copy">
+        Notice 'cos' was rendered as an operator automatically. The backslash works
+        with other symbols like: alpha, phi, pm, Delta, delta, etc.
+      </p>
+      <p class="reg-copy">
+        Let's give theta a value: Type the following:
+      </p>
+      <p class="reg-copy">
+        <b>\</b> <b>t</b> <b>h</b> <b>e</b> <b>t</b> <b>a</b> <b>SPACEBAR</b>
+        <b>=</b> <b>\</b> <b>p</b> <b>i</b> <b>SPACEBAR</b> <b>/</b> <b>2</b>
+        <b>ENTER</b>
+      </p>
+      <p class="reg-copy">
+        For subscripts type the following sequence:
+      </p>
+      <p class="reg-copy">
+          <b>a</b> <b>SHIFT</b> + <b>-</b> <b>1</b> <b>&#8594</b> <b>+</b>
+          <b>a</b> <b>SHIFT</b> + <b>-</b> <b>2</b> <b>&#8594</b> <b>+</b>
+          <b>a</b> <b>SHIFT</b> + <b>-</b> <b>3</b> <b>&#8594</b> <b>+</b>
+          <b>\</b> <b>c</b> <b>d</b> <b>o</b> <b>t</b> <b>s</b> <b>+</b> 
+          <b>SPACEBAR</b> <b>+</b> <b>a</b> <b>SHIFT</b> + <b>-</b> <b>n</b>
+          <b>&#8594</b> <b>ENTER</b>
+      </p>
+      <p class="reg-copy">
+        That covers the basic functionality of our project. Feel free to play
+        around with it and try things out.
+      </p>
+      <div class="tutorial-end-container">
+        <h3 class="dark-heading-style">Your feedback <br>is golden</h3>
+        <p class="tutorial-end">
+          Please take a look at our <em><a href="https://docs.google.com/forms/d/e/1FAIpQLSfvj-Rl70SucoTN3Rzo8iyYSsTeZfxU5GTdxMHNvCe0FKzrZQ/viewform">
+          tiny survey.</a></em>
+          Our goal is to build an awesome tool for anyone who enjoys math.
+        </p>
+      </div>
+    </article>
+  </div>
+  <div id="sticky-area">
+    <main id="app-container"> <!-- Page Container -->    
+      <article id="editor-screen">
+        <ul id="display-field"></ul>
+        <div id="editor-drawer">
+            <div id="current-name">Math in Motion — An Incomplete and Super Buggy Demo</div>
+            <div id="user-input"></div>
+            <div id="drawer-feedback">
+              <a href="https://docs.google.com/forms/d/e/1FAIpQLSfvj-Rl70SucoTN3Rzo8iyYSsTeZfxU5GTdxMHNvCe0FKzrZQ/viewform">
+                We need your feedback! Clickhere to fill our survey</a>
+              </div>
+      </article>
+    </main>
+  </div>
+  <div id="about-area">
+    <h3 id="about-heading">About MiM</h3>
+    <p id="mim-meaning">
+      <em>MiM = Math in Motion</em>
+    </p>
+    <p id="about-copy-text" class="about-copy">
+      MiM is a modern interface for working with math on the web. It has a short learning curve and makes it easier to input, edit, and display math on the screen. Since it’s built with core web technologies, it can be used by anyone with a browser.<br><br>
+
+      MiM allows you to work with math just like you would with pencil and paper. It has useful features like syntax highlighting, text and math notation modes, and copy/paste functionality. MiM makes it easier to show your work and edit it on the fly.<br><br>
+
+      Our goal is to make math more accessible, scalable, and interactive.<br><br>
+
+      This project was made possible by <em><a href="https://summerofcode.withgoogle.com/">Google Summer of Code 2019</a></em> and the <em><a href="http://processingfoundation.org">Processing Foundation.</a></em><br><br>
+
+      Please keep in mind: We were complete noobs to <br> web development at the beginning this project, <br> and
+      honestly, we still are. <em><a href="http://https://docs.google.com/forms/d/e/1FAIpQLSfvj-Rl70SucoTN3Rzo8iyYSsTeZfxU5GTdxMHNvCe0FKzrZQ/viewform"> Tips</a></em> from experienced developers are kindly appreciated.
+    </p>
+    <p id="dev-team">
+      Developed by :<br>
+      Alexandra Cheng<br>
+      and Oskar Garcia<br>
+      @ Columbia University<br><br>
+
+      GSoC Mentors :<br>
+      Hellen Nickles and<br>
+      Greg Benedis-Grab
+    </p>
+  </div>
+</body>
+</html>
+
