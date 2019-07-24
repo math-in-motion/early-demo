@@ -684,9 +684,9 @@ a:hover {
   position: -webkit-sticky;
   position: sticky;
   top: 0;
-  overflow-y: auto;
+/*   overflow-y: auto;
   overflow-x: auto;
-  /* overflow: scroll; */
+overflow: scroll; */
 }
 
 #app-container > *:nth-child(1) {
