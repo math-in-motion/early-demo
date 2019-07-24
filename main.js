@@ -53,7 +53,7 @@ inputContainer.addEventListener('keypress', e => {
     cardBox.scrollIntoView({
       behavior: 'auto',
       block: 'nearest',
-      inline: 'start',
+      inline: 'nearest',
     });
     inputMQObject.latex('');
     anime({
