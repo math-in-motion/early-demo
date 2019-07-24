@@ -891,7 +891,7 @@ overflow: scroll; */
   max-height: 480px;
   overflow-x: auto;
   overflow-y: auto;
-  /* overflow: scroll; */
+  overscroll-behavior: none;
   background-color: var(--dark-fg);
   border-radius: 6px;
   -webkit-box-shadow: 0px 20px 30px -20px rgba(0,0,0,0.4);
