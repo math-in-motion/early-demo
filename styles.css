@@ -68,6 +68,9 @@ PROJECT STYLES
   --gray-ln: #B8B6B4;
 }
 
+html {
+  -ms-overflow-style: -ms-autohiding-scrollbar;
+}
 
 body {
   -webkit-box-sizing: border-box;
