@@ -720,6 +720,8 @@ overflow: scroll; */
     minmax(20px, 40px);
   background-color: var(--dark-fg);
   border-radius: 6px;
+  -ms-scroll-chaining: none;
+  overscroll-behavior: none;
 }
 
 #editor-screen > *:nth-child(1) {
