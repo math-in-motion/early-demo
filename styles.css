@@ -685,9 +685,6 @@ a:hover {
   position: -webkit-sticky;
   position: sticky;
   top: 0;
-/*   overflow-y: auto;
-  overflow-x: auto;
-overflow: scroll; */
 }
 
 #app-container > *:nth-child(1) {
@@ -720,8 +717,6 @@ overflow: scroll; */
     minmax(20px, 40px);
   background-color: var(--dark-fg);
   border-radius: 6px;
-  -ms-scroll-chaining: none;
-  overscroll-behavior: none;
 }
 
 #editor-screen > *:nth-child(1) {
@@ -891,7 +886,7 @@ overflow: scroll; */
   -ms-flex-line-pack: start;
       align-content: start;
   grid-auto-flow: row;
-  max-height: 480px;
+  height: 480px;
   overflow-x: auto;
   overflow-y: auto;
   overscroll-behavior-y: contain;
