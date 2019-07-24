@@ -50,11 +50,12 @@ inputContainer.addEventListener('keypress', e => {
     cardBox.appendChild(deleteX);
     deleteX.innerHTML = 'x';
     displayField.appendChild(cardBox);
-    cardBox.scrollIntoView({
+    /* cardBox.scrollIntoView({
       behavior: 'auto',
       block: 'nearest',
       inline: 'nearest',
-    });
+    }); */
+    displayField.scrollTop = displayField.scrollHeight;
     inputMQObject.latex('');
     anime({
       targets: [mathContainer],
