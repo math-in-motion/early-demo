@@ -14,33 +14,33 @@ https://docs.google.com/forms/d/e/1FAIpQLSfvj-Rl70SucoTN3Rzo8iyYSsTeZfxU5GTdxMHN
 
 ## Core features
 
-..* Easily type and edit complex math expressions in real time
-..* Display the sequence of steps taken to solve math problems
-..* Copy/Paste functionality similar to regular text
-..* Easily jump from math mode to regular text mode
-..* Shortcuts for superscript and subscript
-..* Basic syntax highlighting for common math symbols
+* Easily type and edit complex math expressions in real time
+* Display the sequence of steps taken to solve math problems
+* Copy/Paste functionality similar to regular text
+* Easily jump from math mode to regular text mode
+* Shortcuts for superscript and subscript
+* Basic syntax highlighting for common math symbols
 
 
 ## Technologies and libraries used
 
-..* HTML, CSS, and JavaScript
-..* [MathQuill](http://mathquill.com/)
-..* [Anime.js] (https://animejs.com/)
+* HTML, CSS, and JavaScript
+* [MathQuill](http://mathquill.com/)
+* [Anime.js] (https://animejs.com/)
 
 
 ## Potential features
 
-..* Keyboard shortcuts for navigating and editing complex mathematical expressions
-..* Exporting to multiple formats like PDF and JSON
-..* Context-aware syntax highlighting
-..* Semantic search
-..* Autocomplete for common formulas and expressions
-..* Undo functionality
-..* Toolstips
-..* Display animations and slideshows
-..* Implementing a database for storing multiple MiM projects
-..* API for integrating MiM projects with p5.js sketches
+* Keyboard shortcuts for navigating and editing complex mathematical expressions
+* Exporting to multiple formats like PDF and JSON
+* Context-aware syntax highlighting
+* Semantic search
+* Autocomplete for common formulas and expressions
+* Undo functionality
+* Toolstips
+* Display animations and slideshows
+* Implementing a database for storing multiple MiM projects
+* API for integrating MiM projects with p5.js sketches
 
 ## Acknowledgements
 
