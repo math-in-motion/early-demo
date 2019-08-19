@@ -43,6 +43,5 @@ Your feedback is golden! Let us know what you think of the project: [Feedback fo
 
 ## Acknowledgements
 
-This project was made possible by Google Summer of Code 2019 and the Processing Foundation. We're extremely thankful for the support of our incredible mentors Ellen Nickles and Gregory Benedis-Grab. Without their insights, this project wouldn't have been a success. 
-
+This project was made possible by [Google Summer of Code 2019](https://summerofcode.withgoogle.com/) and the [Processing Foundation](https://processing.org/). We're extremely thankful for the support of our incredible mentors [Ellen Nickles](https://ellennickles.site/) and Gregory Benedis-Grab. Without their insights, this project wouldn't have been a success. 
 
