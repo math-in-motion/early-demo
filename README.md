@@ -26,7 +26,7 @@ https://docs.google.com/forms/d/e/1FAIpQLSfvj-Rl70SucoTN3Rzo8iyYSsTeZfxU5GTdxMHN
 
 * HTML, CSS, and JavaScript
 * [MathQuill](http://mathquill.com/)
-* [Anime.js] (https://animejs.com/)
+* [Anime.js](https://animejs.com/)
 
 
 ## Potential features
