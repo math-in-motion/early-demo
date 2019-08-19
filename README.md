@@ -3,7 +3,7 @@
 by Alexandra Cheng & Oskar Garcia 
 
 
-## Early-demo
+## Early demo – Summer 2019
 Math in Motion (MiM) is a modern interface for working with math on the web. It has a short learning curve and makes it easier to input, edit, and display math on the screen. Since it’s built with core web technologies, it can be used by anyone with a browser.
 
 Try it out for yourself at: https://math-in-motion.github.io/early-demo/
